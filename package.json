@@ -1,0 +1,28 @@
+{
+  "name": "crypto-market",
+  "version": "0.0.1",
+  "description": "Crypto currency app",
+  "main": "src/app.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mandrysek/crypto-market.git"
+  },
+  "author": "Miroslav Andrýsek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandrysek/crypto-market/issues"
+  },
+  "homepage": "https://github.com/mandrysek/crypto-market#readme",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "dotenv": "^4.0.0",
+    "lodash": "^4.17.4",
+    "node.bittrex.api": "^0.5.1"
+  },
+  "devDependencies": {
+    "@strv/eslint-config-javascript": "^7.6.0",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.6.1"
+  }
+}
