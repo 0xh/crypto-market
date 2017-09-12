@@ -8,7 +8,7 @@ module.exports = {
       level: 'debug',
     },
   },
-  currencies: (process.env.CURRENCIES || '').split(','),
+  altCoins: (process.env.ALT_COINS || '').split(','),
   bittrex: {
     api: {
       key: process.env.BITTREX_API_KEY,

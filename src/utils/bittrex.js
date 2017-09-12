@@ -1,6 +1,7 @@
 /* cspell:disable */
 
 const wrapper = require('node.bittrex.api')
+const _ = require('lodash')
 
 const config = require('../config')
 const log = require('../common/logger')
@@ -41,5 +42,9 @@ module.exports = {
     return wrapper.getticker({
       market: `${from}-${to}`,
     })
+  },
+
+  toShi(val) {
+    return _.round(val, 8)
   },
 }

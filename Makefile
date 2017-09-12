@@ -7,5 +7,8 @@ lint:
 	$(bin)eslint --ext .js ./src ./tests
 	$(call log,"ESLint run completed.")
 
-get-exchange-tip:
-	node ./src/scripts/get-exchange-tip.js | ./node_modules/.bin/bunyan
+balance-all-calc:
+	node ./src/scripts/balance-all-calc.js | ./node_modules/.bin/bunyan
+
+balance-edges-calc:
+	node ./src/scripts/balance-edges-calc.js | ./node_modules/.bin/bunyan
